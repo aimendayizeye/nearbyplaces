@@ -1,0 +1,65 @@
+             bl_latitude: -1.9619664046490897,
+            bl_longitude: 30.0496484390259,
+            tr_longitude: 30.083551560974144,
+            tr_latitude: -1.9380335102591886,
+
+
+            // const [type, setType] = useState("restaurants");
+  // const [places, setPlaces] = useState([]);
+  // const [coordinates, setCoordinates] = useState({});
+  // const [childClicked, setChildClicked] = useState(null);
+  // const [bounds, setBounds] = useState({});
+  // const [isLoading, setIsLoading] = useState(false);
+  // useEffect(() => {
+  //   navigator.geolocation.getCurrentPosition(
+  //     ({ coords: { latitude, longitude } }) => {
+  //       setCoordinates({ lat: latitude, lng: longitude });
+  //     }
+  //   );
+  // }, []);
+
+  // useEffect(() => {
+  //   setIsLoading(true);
+  //   console.log(coordinates, bounds);
+  //   displayAll(type, bounds.sw, bounds.ne).then((data) => {
+  //     console.log(data);
+
+  //     setPlaces(data);
+  //     setIsLoading(false);
+  //   });
+  // }, [type, coordinates, bounds]);
+  // return (
+  //   <>
+  //     <CssBaseline />
+  //     <Header setCoordinates ={setCoordinates} />
+  //     <Grid container spacing={3} style={{ width: "100%" }}>
+  //       <Grid item xs={12} md={4}>
+  //         <Place
+  //           typpe={type}
+  //           setType={setType}
+  //           isLoading={isLoading}
+  //           childClicked={childClicked}
+  //           places={places}
+  //         />
+  //       </Grid>
+  //       <Grid
+  //         item
+  //         xs={12}
+  //         md={8}
+  //         style={{
+  //           display: "flex",
+  //           justifyContent: "center",
+  //           alignItems: "center",
+  //         }}
+  //       >
+  //         <Map
+  //           setChildClicked={setChildClicked}
+  //           setCoordinates={setCoordinates}
+  //           setBounds={setBounds}
+  //           places={places}
+  //           coordinates={coordinates}
+  //         />
+  //       </Grid>
+  //     </Grid>
+  //   </>
+  // );
